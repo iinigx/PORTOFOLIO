@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum | Iñigo Rojo Crespo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- MENÚ SUPERIOR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre-mi.html">Sobre mí</a></li>
+      <li><a href="curriculum.html" class="active">Currículum</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+ 
+  <main>
+    <span class="tag">Currículum</span>
+    <h1>Mi <span class="gradient-text">currículum</span></h1>
+    <p>Puedes verlo directamente aquí abajo o descargarlo en PDF.</p>
+ 
+    <div class="btn-row">
+      <!-- Guarda tu PDF en la carpeta "docs" con el nombre curriculum.pdf -->
+      <a href="docs/curriculum.pdf" download class="btn btn-primary">⬇ Descargar PDF</a>
+      <a href="docs/curriculum.pdf" target="_blank" class="btn btn-ghost">Abrir en pestaña nueva</a>
+    </div>
+ 
+    <!-- PDF incrustado -->
+    <iframe class="pdf-frame" src="docs/curriculum.pdf" title="Currículum de Iñigo Rojo Crespo">
+      <p>Tu navegador no puede mostrar el PDF. <a href="docs/curriculum.pdf">Descárgalo aquí</a>.</p>
+    </iframe>
+ 
+    <div class="section">
+      <h2>Formación</h2>
+      <div class="grid">
+        <div class="card">
+          <span class="meta">Caja Mágica</span>
+          <h3>Prometeo by The Power</h3>
+        </div>
+        <div class="card">
+          <span class="meta">Carabanchel</span>
+          <h3>Las Escolapias de Carabanchel</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+ 
+  <!-- BARRA INFERIOR -->
+  <footer class="footer-bar">
+    <span class="name">Iñigo Rojo Crespo</span>
+    <span class="mail">📧 <a href="mailto:inigorcg@gmail.com">inigorcg@gmail.com</a></span>
+  </footer>
+ 
+</body>
+</html>
+ 
